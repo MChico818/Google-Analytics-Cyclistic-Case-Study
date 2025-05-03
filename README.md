@@ -60,7 +60,7 @@ with combined_data as (
 )
 select * from combined_data;
 ```
-- Result: Combined table contains = 5,724,330 rows
+- Result: Combined table contains = **5,724,330 rows**
 
 
 Now I was able to explore trends and relationships in bike data from Cyclistic
@@ -74,8 +74,8 @@ from `Bike_Final_Data.combined_data`
 group by
   member_casual;
 ```
-  - Annual Members = 3,641,109
-  - Casual Members = 2,083,221
+  - Annual Members = **3,641,109**
+  - Casual Members = **2,083,221**
 
 **Average Ride Time**
 ```sql
@@ -87,8 +87,8 @@ from
 group by
   member_casual;
 ```
-- Annual Members = 12 min
-- Casual Members = 22 min
+- Annual Members = **12 min**
+- Casual Members = **22 min**
 
 **Total Weekday Rides**
 ```sql
@@ -160,9 +160,27 @@ order by
 
  Summer months are when people are riding more and of course during the winter is when are not going to be riding as much
 
-### Share
+## Share
 
   
+## Act
+
+**Key Findings**
+  - The analysis on casual and member riders mainly show the behavioral differences between the two groups. Annual members consistently ride more frequently since bikes are their means of transportation. Hence why peak riding times are beginning of work day **(7am-8am)** and end of work day **(4pm-5pm)**. **Weekdays** are the busiest riding days for members; while **weekends** are busiest for the casual riders.
+  - Even during the winter months, annual members far outride casual members which shows the weight of bikes as their main souce of transportation.
+  - Casual members trips are longer which shows they are riding for leisure when they have free time and not rushing to and from work
+
+Since casual members don't use bikes as their daily source of transportation, there is no significant motivation to commit to the annual membership
+
+**Possible Recommendations**
+1) Promote membership discounts during the high riding season (Summer) to entice casual members to joining the annual membership plans
+2) Promote weekend discount campaigns on weekends when casual riders ride the most
+3) Creating referral systems that benefit both annual and casual members and the company
+
+
+
+
+
 
 
 
