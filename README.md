@@ -6,19 +6,19 @@
   
 
   
-### Ask
+## Ask
  - **Business Task**: How do annual members and casual riders use Cyclistic bikes differently?
  - **Goal** : Analyz the Cyclistic historical bike data to identify trends to then design marketing strategies aimed at converting casual riders into annual members
  - **Stakeholders** :   Director of marketing & other executives/key decision makers
 
-### Prepare
+## Prepare
 **Step 1**: Downloaded previous 12 months of historical trip data from January 2024 - December 2024
 
 **Step 2**: Saved original .csv files all into one folder
 
 --**Data was sourced from first-party group**
 
-### Process
+## Process
   Used Excel for cleaning the data for each month. Wanted to organize each months data before combining all months.
   - **Deleted any duplicates**
   - **Checked for empty values**
@@ -28,7 +28,7 @@
   - **Filtered ride_times and deleted ride_times that were < 1min**
   - **Changed column names to make readability simplier: ride_id, member_casual, date, start_time, end_time, ride_time, weekday, month**
 
-### Analyze
+## Analyze
 Imported each month into Big Query since dataset was so large and then combined all months into a full-year data table
 
 ```sql
