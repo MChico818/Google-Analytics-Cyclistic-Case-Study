@@ -161,6 +161,11 @@ order by
  Summer months are when people are riding more and of course during the winter is when are not going to be riding as much
 
 ## Share
+![image](https://github.com/user-attachments/assets/7dc66749-a3c8-477f-915f-d98a1bfe7077)
+![image](https://github.com/user-attachments/assets/53ce1c15-5159-428b-8584-ec9d2c911c4b)
+![image](https://github.com/user-attachments/assets/2f60bf8a-68b3-4b3a-b286-e59e9bd1280c)
+![image](https://github.com/user-attachments/assets/5263d814-5e4a-4eb1-a8e2-906379564e80)
+![image](https://github.com/user-attachments/assets/2cf8da26-36f3-41bf-9479-f61fd9318a4e)
 
   
 ## Act
